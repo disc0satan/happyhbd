@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Birthday Wordle 🎮</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-container">
+    <a href="index.html">Home 🎂</a>
+    <a href="game.html">Game 🎮</a>
+    <a href="music.html">Music 🎶</a>
+    <a href="gallery.html">Gallery 📸</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Birthday Wordle 💛</h1>
+  <p>Guess the 5-letter word 👀</p>
+
+  <div id="board"></div>
+
+  <input type="text" id="guessInput" maxlength="5">
+  <button onclick="checkGuess()">Guess</button>
+
+  <p id="message"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

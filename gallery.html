@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Memories </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-container">
+    <a href="index.html">Home </a>
+    <a href="game.html">Game </a>
+    <a href="music.html">Music </a>
+    <a href="gallery.html">Gallery </a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>24 best photos of us this year</h1>
+
+  <div class="gallery">
+    <div class="photo">
+      <img src="images/photo1.jpg" alt="Pic1" onclick="openLightbox(this)">
+      <p class="caption">Our first picnic together 🥰</p>
+    </div>
+
+    <div class="photo">
+      <img src="images/photo2.jpg" alt="Pic2" onclick="openLightbox(this)">
+      <p class="caption">That funny day at the beach 😎</p>
+    </div>
+
+    <div class="photo">
+      <img src="images/photo3.jpg" alt="Pic3" onclick="openLightbox(this)">
+      <p class="caption">Cuddles with Coco 🐱</p>
+    </div>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" onclick="closeLightbox()">
+  <span id="caption"></span>
+  <img id="lightbox-img">
+</div>
+
+<script src="gallery.js"></script>
+</body>
+</html>

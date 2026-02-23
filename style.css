@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0c6980;   /* light blue background */
+  text-align: center;
+  color: white;          /* all main text white */
+}
+
+/* NAVIGATION BAR */
+nav {
+  background: white;     /* white navbar */
+  padding: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.nav-container a {
+  color: #0b3c6f;        /* dark blue text */
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-container a:hover {
+  text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+  padding: 60px 20px;
+}
+
+/* Birthday Image */
+.birthday-image {
+  width: 350px;
+  max-width: 90%;
+  margin-bottom: 30px;
+}
+
+/* MESSAGE BOX */
+.message-box {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Gallery */
+.gallery img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 15px;
+}

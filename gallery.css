@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+
+  /* Background image */
+  background: url("images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  color: white;  /* default text color */
+}
+
+/* GRID GALLERY */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.photo {
+  background: rgba(0,0,0,0.4); /* semi-transparent overlay so caption is readable */
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+.photo img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 16px;
+  color: white;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+/* LIGHTBOX STYLING */
+#lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.85);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+#caption {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}

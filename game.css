@@ -1,0 +1,39 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 10px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.tile {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: white;
+  color: black;
+}
+
+/* COLORS */
+.correct {
+  background-color: #ff8fcf;  /* Pink */
+  color: white;
+}
+
+.present {
+  background-color: #ff9f40;  /* Orange */
+  color: white;
+}
+
+.wrong {
+  background-color: #4da6ff;  /* Blue */
+  color: white;
+}
+body {
+  background: #dea6cf;   /* soft pink */
+}
