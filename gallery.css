@@ -6,7 +6,7 @@ body {
   background: url("images/bg.jpg") no-repeat center center fixed;
   background-size: cover;
 
-  color: blue;  /* default text color */
+  color: #0b3c6f;  /* default text color */
 }
 
 /* GRID GALLERY */
